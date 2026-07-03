@@ -1,0 +1,7 @@
+ Storage Health Assessment Report
+
+- Storage Devices: Verified the available storage devices using the lsblk command. The primary storage device is "sda" with a mounted root partition "/dev/sda1".
+- Disk Usage: Examined filesystem usage using the df -h command. The root filesystem is utilizing approximately 23% of the available storage capacity.
+- Mounted Filesystems: Confirmed the active mounted filesystems, including the root filesystem and temporary virtual filesystems.
+- Inode Utilization: Checked inode usage using the df -i command. The root filesystem is utilizing approximately 10% of the available inodes.
+- Storage Status: The storage devices and mounted filesystems are operating normally with sufficient free disk space and inode availability.
