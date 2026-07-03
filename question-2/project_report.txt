@@ -1,0 +1,7 @@
+ Project Workspace and Permission Management Report
+
+- Default File Permissions (umask): The current umask value is "0002", allowing group write permissions while restricting write access for others.
+- Project Workspace Creation: Successfully created the project workspace with separate "docs" and "code" directories using the mkdir command.
+- File Creation: Created the file "design.txt" inside the "docs" directory and verified its existence.
+- Directory Permissions: Updated the "code" directory permissions to "700", allowing access only to the owner.
+- File Ownership: Verified the ownership of "design.txt" belongs to the current user "rithwik".
