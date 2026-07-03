@@ -1,0 +1,7 @@
+ System and Link Analysis Report
+
+- Hard and Symbolic Links: Successfully created both a hard link and a symbolic link for "original_file.txt" and verified their properties using the ls command.
+- Link Verification: After deleting the original file, the hard link remained accessible while the symbolic link became broken, confirming the difference between both link types.
+- Open File Descriptors: Examined the current process file descriptors using the /proc filesystem and verified the standard input, output, and error streams.
+- Error Redirection: Redirected command errors to a separate file using standard error redirection (2>) and successfully verified the captured output.
+- System Resource Limits: Displayed the current shell resource limits using the ulimit command, confirming the active process and memory limitations.
